@@ -1,0 +1,74 @@
+# ========== OS Files ==========
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ========== Editor / IDE ==========
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# Vim / Neovim
+*.swp
+*.swo
+*.swm
+.session
+undo/
+view/
+
+# ========== Shell ==========
+# Shell history should never be committed
+.bash_history
+.zsh_history
+.fish_history
+
+# Oh My Zsh cache
+.cache/
+
+# ========== Environment / Secrets ==========
+.env
+.env.*
+*.secret
+secrets.json
+
+# ========== Applications ==========
+# SSH
+.ssh/known_hosts
+.ssh/authorized_keys
+.ssh/id_*.pub   # keep private keys out of the repo, but often public keys are also unnecessary
+.ssh/id_*       # definitely never commit private keys
+
+# GPG
+.gnupg/
+
+# ========== Node / Tools ==========
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========== Misc ==========
+*.log
+*.tmp
+*.bak
+*.old
+
+# Local machine overrides
+local/
+
