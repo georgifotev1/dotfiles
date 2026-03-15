@@ -4,6 +4,10 @@ return {
 		"christoomey/vim-tmux-navigator",
 	},
 	{
+		"jwalton512/vim-blade",
+		ft = "blade",
+	},
+	{
 		-- Detect tabstop and shiftwidth automatically
 		"tpope/vim-sleuth",
 	},
