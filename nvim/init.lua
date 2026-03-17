@@ -25,6 +25,7 @@ require("lazy").setup({
 	require("plugins.autoformat"),
 	require("plugins.gitsigns"),
 	require("plugins.indent"),
-	require("plugins.alpha"),
 	require("plugins.misc"),
+	require("plugins.alpha"),
+	require("plugins.gitdiff"),
 })
